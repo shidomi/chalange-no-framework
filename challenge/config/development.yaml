@@ -1,0 +1,11 @@
+app:
+  name: Wishlist
+  host: '127.0.0.1'
+  port: 8080
+  logLevel: debug
+db:
+  host: 'localhost'
+  port: 27017
+productBackend:
+  host: 'http://challenge-api.luizalabs.com/api/product/'
+  timeout: '2000'
